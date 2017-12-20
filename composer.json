@@ -1,8 +1,8 @@
 {
-  "name": "instagramfeed/craft-instagram-feed",
+  "name": "ryangittings/rg-craft-instagram-feed",
   "description": "A simple plugin for pulling Instagram posts in your templates.",
   "type": "craft-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "keywords": [
       "craft",
       "cms",
@@ -33,9 +33,9 @@
       "name": "craft-instagram-feed",
       "handle": "craft-instagram-feed",
       "schemaVersion": "1.0.0",
-      "hasCpSettings": true,
-      "hasCpSection": true,
       "changelogUrl": "https://raw.githubusercontent.com/ryangittings/craft-instagram-feed/master/CHANGELOG.md",
-      "class": "ryangittings\\instagramfeed\\InstagramFeed"
+      "components": {
+        "feed": "ryangittings\\instagramfeed\\Feed"
+      }
   }
 }

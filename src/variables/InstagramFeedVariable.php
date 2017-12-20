@@ -1,6 +1,10 @@
 <?php
 namespace ryangittings\instagramfeed;
 
+use Craft;
+
+use ryangittings\instagramfeed\Plugin;
+
 class InstagramFeedVariable
 {
 	/* accessable in templates as craft.instagramfeed.getFeed()
@@ -8,11 +12,15 @@ class InstagramFeedVariable
 	*/
 	public function getFeed($limit)
 	{
-		return craft()->instagramFeed->getFeed($limit);
+    $plugin = Plugin::getInstance();
+    $Feed = $plugin->getFeed();
+		return $Feed->getFeed($limit);
 	}
-	
+
 	public function isConnected()
 	{
-		return craft()->instagramFeed->isConnected();
+    $plugin = Plugin::getInstance();
+    $Feed = $plugin->getFeed();
+		return $Feed->isConnected();
 	}
 }

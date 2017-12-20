@@ -1,13 +1,15 @@
 <?php
 namespace ryangittings\instagramfeed;
 
-class InstagramFeedService extends BaseApplicationComponent
+use yii\base\Component;
+
+class Feed extends Component
 {
 	// returns an array of URL's from instagram
 	public function getFeed($limit)
 	{
 		// plugin settings
-		$settings = craft()->plugins->getPlugin('instagramfeed')->getSettings();
+    $settings = Plugin::getInstance()->getSettings();
 		
 		// array to be returned
 		$images = array();
