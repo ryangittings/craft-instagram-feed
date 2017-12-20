@@ -30,7 +30,7 @@
       }
   },
   "extra": {
-      "name": "instagram Feed",
+      "name": "Instagram Feed",
       "handle": "craft-instagram-feed",
       "schemaVersion": "1.0.0",
       "changelogUrl": "https://raw.githubusercontent.com/ryangittings/craft-instagram-feed/master/CHANGELOG.md",
