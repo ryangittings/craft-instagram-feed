@@ -53,7 +53,7 @@ class InstagramFeed extends Plugin
 		));
 	}
 
-	public function setSettings($values)
+	public function setSettings(array $values)
 	{
 		if (!$values)
 		{
