@@ -26,7 +26,7 @@
   },
   "repositories": [
       {
-          "type": "vcs",
+          "type": "composer",
           "url": "https://github.com/ryangittings/craft-instagram-feed"
       }
   ],
