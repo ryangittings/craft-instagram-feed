@@ -4,43 +4,34 @@
   "type": "craft-plugin",
   "version": "1.0.0",
   "keywords": [
-      "craft",
-      "cms",
-      "craftcms",
-      "craft-plugin",
-      "instagram"
+    "craft",
+    "cms",
+    "craftcms",
+    "craft-plugin",
+    "instagram"
   ],
   "support": {
-      "docs": "https://github.com/ryangittings/craft-instagram-feed/blob/master/README.md",
-      "issues": "https://github.com/ryangittings/craft-instagram-feed"
+    "docs": "https://github.com/ryangittings/craft-instagram-feed/blob/master/README.md",
+    "issues": "https://github.com/ryangittings/craft-instagram-feed"
   },
   "license": "MIT",
   "authors": [
-      {
-          "name": "Ryan Gittings",
-          "homepage": "https://ryangittings.co.uk"
-      }
+    {
+      "name": "Ryan Gittings",
+      "homepage": "https://ryangittings.co.uk"
+    }
   ],
   "require": {
-      "craftcms/cms": "~3.0.0-beta.23"
+    "craftcms/cms": "^3.0.0-beta.24"
   },
-  "repositories": [
-      {
-          "type": "composer",
-          "url": "https://github.com/ryangittings/craft-instagram-feed"
-      }
-  ],
   "autoload": {
-      "psr-4": {
-        "ryangittings\\instagramfeed\\": "src/"
-      }
+    "psr-4": {
+      "ryangittings\\instagramfeed\\": "src/"
+    }
   },
   "extra": {
-      "name": "Craft Instagram Feed",
-      "handle": "craft-instagram-feed",
-      "schemaVersion": "1.0.0",
-      "hasCpSettings": false,
-      "hasCpSection": false,
-      "class": "ryangittings\\instagramfeed\\InstagramFeed"
+    "name": "Craft Instagram Feed",
+    "handle": "craft-instagram-feed",
+    "downloadUrl": "https://github.com/ryangittings/craft-instagram-feed/archive/master.zip"
   }
 }
