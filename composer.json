@@ -26,7 +26,7 @@
   },
   "autoload": {
       "psr-4": {
-        "instagramfeed\\craftinstagramfeed\\": "src/"
+        "ryangittings\\instagramfeed\\": "src/"
       }
   },
   "extra": {
@@ -36,6 +36,6 @@
       "hasCpSettings": false,
       "hasCpSection": false,
       "changelogUrl": "https://raw.githubusercontent.com/ryangittings/craft-instagram-feed/master/CHANGELOG.md",
-      "class": "instagramfeed\\craftinstagramfeed\\Craftinstagramfeed"
+      "class": "ryangittings\\instagramfeed\\InstagramFeed"
   }
 }
