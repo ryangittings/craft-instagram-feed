@@ -1,5 +1,5 @@
 <?php
-namespace Craft;
+namespace ryangittings\instagramfeed;
 
 class InstagramFeedVariable
 {

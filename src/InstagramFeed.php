@@ -23,31 +23,31 @@ class InstagramFeed extends Plugin
 
 	public function getDeveloper()
 	{
-		return 'Paleosun';
+		return 'Ryan Gittings';
 	}
 
 	public function getDeveloperUrl()
 	{
-		return 'http://paleosun.com';
+		return 'https://ryangittings.co.uk';
 	}
 
 	public function getPluginUrl()
 	{
-		return 'https://github.com/phptiny/craft-instagram-feed';
+		return 'https://github.com/ryangittings/craft-instagram-feed';
 	}
 
 	public function getDocumentationUrl()
 	{
 		return $this->getPluginUrl().'/blob/master/README.md';
-	} 
-	
+	}
+
 	public function getSettingsHtml()
 	{
 		return craft()->templates->render('instagramfeed/_settings', array(
 			'settings' => $this->getSettings()
 		));
 	}
-	
+
 	public function setSettings($values)
 	{
 		if (!$values)
