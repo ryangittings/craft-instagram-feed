@@ -32,15 +32,15 @@
   ],
   "autoload": {
       "psr-4": {
-        "ryangittings\\craft-instagram\\": "src/"
+        "ryangittings\\craft-instagram-feed\\": "src/"
       }
   },
   "extra": {
-      "name": "Craft Instagram",
+      "name": "Craft Instagram Feed",
       "handle": "craft-instagram-feed",
       "schemaVersion": "1.0.0",
       "hasCpSettings": false,
       "hasCpSection": false,
-      "class": "ryangittings\\craft-instagram\\InstagramFeed"
+      "class": "ryangittings\\craft-instagram-feed\\InstagramFeed"
   }
 }
