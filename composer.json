@@ -2,7 +2,7 @@
   "name": "ryangittings/rg-craft-instagram-feed",
   "description": "A simple plugin for pulling Instagram posts in your templates.",
   "type": "craft-plugin",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "keywords": [
       "craft",
       "cms",
@@ -32,7 +32,7 @@
   "extra": {
       "name": "Instagram Feed",
       "handle": "craft-instagram-feed",
-      "schemaVersion": "1.0.0",
+      "schemaVersion": "1.0.2",
       "changelogUrl": "https://raw.githubusercontent.com/ryangittings/craft-instagram-feed/master/CHANGELOG.md",
       "components": {
         "feed": "ryangittings\\instagramfeed\\Feed"
